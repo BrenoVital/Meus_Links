@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Tangerine', 'Kanit', sans-serif, serif;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+}
+
+.card {
+  width: 70%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #000;
+  margin: auto;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+.img {
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid black;
+  box-shadow: 0px 0px 10px #000;
+}
+
+.description {
+  font-size: 35px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 60%;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  width: 200px;
+  border: 2px solid aquamarine;
+  margin: 10px 0;
+}
+
+.img-link {
+  width: 30px;
+  height: 30px;
+  margin: auto 0;
+  background: url(/Assets/Images/linkedin.png) no-repeat;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px #000;
+}
+
+.title-link {
+  margin-left: 10px;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: 'Kanit', sans-serif, serif;
+
+}
