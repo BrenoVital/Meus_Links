@@ -7,11 +7,12 @@
 body {
   font-family: 'Tangerine', 'Kanit', sans-serif, serif;
   text-shadow: 4px 4px 4px #aaa;
+  background-color: #000;
 }
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #fff;
 }
 
 .container {
@@ -21,7 +22,6 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: aquamarine;
 }
 
 .card {
@@ -31,9 +31,10 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #fff;
+  background-color: #000;
+
   border-radius: 10px;
-  box-shadow: 0px 0px 10px #000;
+  box-shadow: 0px 0px 10px #fff;
   margin: auto;
 }
 
@@ -49,18 +50,18 @@ a {
   margin: 10px 0;
   font-size: 20px;
   font-weight: bold;
-  color: #000;
+  color: #fff;
 }
 
 .img {
-  width: 50px;
   border-radius: 50%;
-  border: 2px solid black;
-  box-shadow: 0px 0px 10px #000;
+  border: 2px solid #fff;
+  box-shadow: 0px 0px 10px #fff;
 }
 
 .description {
   font-size: 35px;
+  color: #fff;
 }
 
 .body {
@@ -74,22 +75,24 @@ a {
 
 .link {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  justify-content:left;
   align-items: center;
   height: 45px;
   width: 200px;
-  border: 2px solid aquamarine;
+  border: 2px solid #fff;
   margin: 10px 0;
 }
 
 .img-link {
   width: 30px;
   height: 30px;
-  margin: auto 0;
-  background: url(/Assets/Images/linkedin.png) no-repeat;
+  margin: 10px 5px 10px 15px;
+}
+
+.img-link img{
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
-  box-shadow: 0px 0px 10px #000;
 }
 
 .title-link {
